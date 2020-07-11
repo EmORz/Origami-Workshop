@@ -8,9 +8,9 @@ const Header = () =>{
     return (
         <header className={styles.navigation}>
             <ul>
-                <Link href='#' title='Coing to 1'/>
-                <Link href='#' title='Coing to 2'/>
-                <Link href='#' title='Coing to 3'/>
+                <Link href='#' title='Coing to 1' type='header'/>
+                <Link href='#' title='Coing to 2' type='header'/>
+                <Link href='#' title='Coing to 3' type='header'/>
                 
             </ul>
         </header>

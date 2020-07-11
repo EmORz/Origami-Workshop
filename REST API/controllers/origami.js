@@ -2,7 +2,7 @@ const models = require('../models');
 
 module.exports = {
     get: (req, res, next) => {
-        models.Origami.find()
+        models.Origami.find().populate('users')
             .then((origamies) => res.send(origamies))
             .catch(next);
     },
