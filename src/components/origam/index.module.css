@@ -6,6 +6,11 @@
     border-radius: 4px;
 }
 
+.image{
+    width: 32px;
+    height: 30px;
+}
+
 .description {
     word-wrap: break-word;
     padding: 0.5%;
